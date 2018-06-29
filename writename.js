@@ -15,7 +15,7 @@ function qs(search_for) {
 function createResponse(id) {
 	currentDataString = data.data[id-1];
 	response = {"id":currentDataString[0], 
-				"last_name":currentDataString[9],
+				"surname":currentDataString[9],
 				"first_name":currentDataString[10],
 				"department":currentDataString[8],
 				"role":currentDataString[11],
